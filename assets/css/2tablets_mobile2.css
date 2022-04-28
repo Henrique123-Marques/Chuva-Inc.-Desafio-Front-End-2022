@@ -1,0 +1,400 @@
+/*RESPONSIVIDADE PARA TABLETS E SMARTPHONES MAIORES*/
+body{
+	overflow-x: hidden;
+}
+
+section .logo{
+	width: 120px;
+	height: 75px;
+	font-size: 16px;
+}
+
+.header1{
+	margin: 0 0 0 -100px;
+	height: 72px;
+	width: 700px;
+}	
+
+.p1{
+	font-size: 12px;
+	margin: 0 0 0 10px;
+}
+
+.header1 h5{
+	font-size: 12px;
+}
+
+.ptbr{
+	margin: -15px 0 0 150px;
+	width: 80px;
+	height: 20px;
+}
+
+.ptbr p{
+	font-size: 12px;
+	margin: -15px 0 0 10px;
+}
+
+.fa-globe{
+	margin: 0 60px 0 0;
+}
+
+.bemvindo{
+	display: none;	
+}
+
+.usuario{
+	margin: -70px 0 0 250px;
+	width: 25px;
+	height: 25px;
+}	
+
+.video{
+	margin: -1900px 0 0 250px;
+}
+
+.titulo{
+	display: block;
+	color: #ED7839;
+	margin: -600px 0 0 -100px;
+	font-size: 14px;
+}
+
+.video2{
+	width: 351px;
+	height: 180px;
+	margin: 10px 0 0 -50px;
+}
+
+.Secaomenu{
+	width: 120px;
+	height: 1920px;
+}
+
+.IMGmenu img{
+	width: 100px;
+	height: auto;
+}
+
+.menu{
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.menu ul li{
+	width: 100px;
+	margin: 10px 0 0 -40px;
+	text-align: left;
+	list-style-type: none;
+}
+
+.menu a{
+	width: 100px;
+}
+
+
+.botao-download{
+	margin: 10px 0 0 -20px;
+}
+
+.download-link button{
+	width: 120px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.fa-download{
+	font-size: 15px;
+	margin: 0 0 0 0;
+}
+
+.botao-adicional1{
+	margin: -30px 0 0 130px;
+}
+
+.botao-adicional1 button{
+	width: 40px;
+	height: 30px;
+}
+
+.fa-star{
+	font-size: 15px;
+	margin: 0 0 0 0;
+}
+
+.botao-adicional2{
+	margin: -30px 0 0 200px;
+}
+
+.botao-adicional2 button{
+	width: 40px;
+	height: 30px;
+}
+
+.botao-adicional2 img{
+	width: 15px;
+	height: auto;
+}
+
+.citacao{
+	display: none;
+}
+
+/*SECAO DETALHES*/
+.detalhes{
+	margin: 20px 0 0 225px;
+	width: 300px;
+}
+
+.Secaoresumo{
+	margin: 0 0 0 130px;
+	width: 500px;
+	height: 180px;
+	font-size: 8.5px;
+	box-shadow: none;
+}
+
+.Tituloresumo{
+	width: 500px;
+}
+
+.Secaoresumo a.txt-more::before{
+	content: "...ver mais";
+	margin: 0 0 0 -700px;
+}
+
+/*DISCUSSOES*/
+.Secao-discussoes{
+	margin: 0 0 0 130px;
+	width: 500px;
+	font-size: 12px;
+	box-shadow: none;
+}
+
+.Titulo-discussoes{
+	width: 500px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+}
+
+.Discussoes-Compartilhar p{
+	font-size: 14px;
+}
+
+.Discussoes-Compartilhar img{
+	width: 300px;
+	height: auto;
+}
+
+hr{
+	display: none;
+}
+
+#topico-edit{
+	width: 500px;
+	height: 350px;
+	margin: 0 0 0 0;
+	display: none;
+}
+
+.botaoTopico{
+	padding: 10px 15px;
+	margin: 0 0 0 200px;
+	cursor: pointer;
+}
+
+.assunto{
+	width: 495px;
+	height: 30px;
+	margin: 0 0 0 0;
+}
+
+.conteudo{
+	width: 495px;
+	height: 125px;
+	margin: 0 0 0 0;
+}
+
+.botao-enviar-topico{
+	margin: -25px 0 0 105px;
+}
+
+#botao-enviar-topico{ 
+	width: 200px; 
+	height: 30px;
+	margin: 25px 0 0 50px;
+}
+
+.enviado{
+	display: none;
+	width: 425px;
+	height: 185px;
+	margin: 0 0 0 15px;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.enviado h3{
+	color: #ed7839;
+	font-size: 15px;
+	margin: 5px 0 0 -550px;
+}
+
+.enviado p{
+	text-align: left;
+	font-size: 12px;
+	display: none;
+}
+
+.enviado a{
+	color: #ed7839;
+	font-size: 16px;
+	margin: 20px 0 0 -550px;
+	display: block;
+}
+
+.enviado button{
+	background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%); 
+	border: none;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	color: #fff;
+	margin: 60px 0 0 150px;
+	display: block;
+	
+}
+
+.fa-check{
+	display: block;
+	margin: 10px 0 0 210px;
+	font-size: 20px;
+}
+
+.aguardando{
+	background: #e7e7e7;
+	border: 1px solid rgba(0,0,0,0.1);
+	height: 150px;
+	width: 425px;
+	margin: 15px 0 0 15px;
+}
+
+.aguardando p{
+	margin: 10px 0 0 0;
+	font-size: 16px;
+	display: block;
+}
+
+.aguardando a{
+	color: #ed7839;
+	font-size: 14px;
+	margin: 10px 0 0 0;
+	display: block;
+}
+
+.pergunta1{
+	width: 500px;
+	height: 160px;
+	margin: 0 0 0 0;
+
+}
+
+.pergunta1 p{
+	margin: 10px 0 0 10px;
+	font-size: 8px;
+}
+
+
+.pergunta2{
+	width: 500px;
+	height: 160px;
+	margin: 0 0 0 0;
+}
+
+.pergunta2 p{
+	margin: 10px 0 0 10px;
+	font-size: 10px;
+}
+
+/*ESTILIZACAO DAS RESPOSTAS*/
+#respostasId{
+	display: none;
+}
+
+.respostas{
+	width: 500px;
+	height: 150px;
+	margin: 40px 0 0 0;
+}
+
+.respostas2{
+	width: 500px;
+	height: 100px;
+	margin: 0 0 0 0;
+}
+
+.respostas3{
+	width: 500px;
+	height: 220px;
+}
+
+.respostas4{
+	width: 500px;
+	height: 220px;
+	margin: 5px 0 0 0;
+}
+
+.fa-check-double{
+	font-size: 20px;
+	margin: 0 0 0 450px;
+}
+
+
+.fa-ellipsis-vertical{
+	font-size: 20px;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+
+.fa-heart{
+	font-size: 20px;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+}
+
+/*FOOTER*/
+.footer{
+	width: 500px;
+	height: 250px;
+	margin: 135px 0 0 130px;
+	position: static;
+}
+
+.footer img{
+	width: 200px;
+	height: auto;
+	margin: 0 0 0 150px;
+}
+
+.saiba-mais button{ 
+	cursor: pointer; 
+	border: none; 
+	font-size: 16px; 
+	width: 230px;
+	height: 35px;
+	margin:  0 0 0 130px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.Texto-footer{
+	font-size: 12px;
+	margin: 0 0 0 0;
+}
+
+
